@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@t_weideman/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -9,11 +9,16 @@
   "scripts": {
     "test": "mocha"
   },
+  "files": [
+    "index.js", "head.js", "tail.js", "middle.js", "assertEqual.js", "eqArrays.js", "assertArraysEqual.js",
+    "test/headTest.js", "test/tailTest.js", "test/middleTest.js", "test/assertEqualTest.js", 
+    "test/eqArraysTest.js", "test/assertArraysEqualTest.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tw77/lotide.git"
   },
-  "author": "",
+  "author": "t_weideman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tw77/lotide/issues"
